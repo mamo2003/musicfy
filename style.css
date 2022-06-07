@@ -1,0 +1,134 @@
+body {
+  background-color: #2d2c49; }
+
+.h1 {
+  color: #eb9972; }
+
+.logo {
+  border-radius: 30%; }
+
+.boton {
+  background-color: #eb9972;
+  text-decoration: none;
+  color: #2d2c49;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px; }
+
+#boton {
+  background-color: #eb9972;
+  border-bottom: #b7464e;
+  text-decoration: none;
+  margin-right: 1em;
+  margin-left: 1em;
+  justify-self: space-between;
+  color: #2d2c49;
+  border-radius: 10px; }
+
+#boton:hover {
+  background-color: #2d2c49; }
+
+.boton2 {
+  background-color: #eb9972;
+  color: #2d2c49;
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+  border-radius: 10px; }
+
+.registro {
+  width: 60%; }
+
+main {
+  position: relative;
+  text-align: center;
+  height: 700px; }
+
+.boton:hover {
+  background-color: #b7464e;
+  color: #2d2c49;
+  text-decoration: none; }
+
+.escuchamos {
+  width: 60%;
+  text-align: center; }
+
+.boton2:hover {
+  color: #2d2c49; }
+
+.navbar-collapse {
+  flex-grow: 0; }
+
+.copyright {
+  text-align: center;
+  color: #b7464e; }
+
+.image-card-logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 15px; }
+
+.card .navbar {
+  border-radius: 3%; }
+
+.card {
+  border-radius: 3%;
+  width: 300px;
+  height: 435px;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  box-shadow: #b7464e; }
+
+.card:hover {
+  box-shadow: #eb9972; }
+
+.card-body {
+  padding: 0px;
+  padding-bottom: 0px; }
+
+.card-img-top {
+  image-rendering: auto;
+  width: 298px;
+  height: 298px; }
+
+.navbar-toggler {
+  border: 0ch; }
+
+.heart {
+  width: 30px;
+  height: 30px; }
+
+.favorito {
+  float: right; }
+
+.card-foter button {
+  align-items: center;
+  justify-content: space-between; }
+
+.navbar {
+  height: 80px; }
+
+h5 {
+  font-size: 0.75em;
+  align-items: baseline; }
+
+h7 {
+  text-align: left;
+  font-size: 0.75em; }
+
+@media (max-width: 350px) {
+  .logo {
+    height: auto;
+    width: auto; }
+
+  main {
+    height: auto;
+    text-align: center;
+    margin-left: 10px; }
+
+  .boton {
+    margin-top: 4px;
+    text-align: center; } }
