@@ -11,13 +11,14 @@ width: 200px;
 height: 40px;
 border-radius: 10px;}
 #boton{background-color: $btncolor;
-border-bottom: $color;
 text-decoration: none;
 margin-right:1em;
 margin-left: 1em;
 justify-self: space-between;
 color:$bgcolor;
-border-radius: 10px;}
+border-radius: 10px;
+margin-bottom: 4px;
+border-bottom-color:$btncolor;}
 #boton:hover{background-color: $bgcolor;}
 .boton2{background-color: $btncolor;
 color:$bgcolor;
@@ -68,11 +69,13 @@ height:298px;
 height: 30px;}
 .favorito{float:right;}
 .card-foter button{align-items: center;
-justify-content: space-between;}
+justify-content: space-between;
+}
 .navbar{height: 80px;
 }
-h5{font-size :0.75em;align-items:baseline;}
-h7{text-align: left; font-size : 0.75em;}
+h5{font-size :1vw;font-weight: 700;}
+h7{text-align: left; font-size :1vw; font-style: oblique;}
+
 @media (max-width:350px){.logo{height: auto;width: auto;}
     main{height: auto;text-align: center ;margin-left:10px;}
     .boton{margin-top: 4px;text-align: center}

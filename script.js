@@ -1,12 +1,4 @@
-var boton = document.getElementById("boton");
-boton.addEventListener("click", function(){
-    if (!sound) {
-      v.play();
-      this.innerHTML = "Pause";
-      sound = true;
-     } else {
-      v.pause();
-      this.innerHTML = "Play";
-      sound = false;
-     } 
-   });
+function myfunction() {
+  var x = document.getElementById("myaudio").duration;
+  document.getElementById("demo").innerHTML = x;
+}
