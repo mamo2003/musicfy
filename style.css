@@ -121,16 +121,18 @@ h7 {
   font-size: 1vw;
   font-style: oblique; }
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
   .logo {
     height: auto;
-    width: auto; }
-
-  main {
-    height: auto;
-    text-align: center;
-    margin-left: 10px; }
+    width: auto;
+    justify-items: center; }
 
   .boton {
-    margin-top: 4px;
-    text-align: center; } }
+    margin-top: 8px;
+    text-align: center; }
+
+  .boton2 {
+    margin-top: 10px; }
+
+  main {
+    align-content: center !important; } }

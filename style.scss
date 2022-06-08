@@ -76,7 +76,9 @@ justify-content: space-between;
 h5{font-size :1vw;font-weight: 700;}
 h7{text-align: left; font-size :1vw; font-style: oblique;}
 
-@media (max-width:350px){.logo{height: auto;width: auto;}
-    main{height: auto;text-align: center ;margin-left:10px;}
-    .boton{margin-top: 4px;text-align: center}
+@media (max-width:380px){.logo{height: auto;width: auto;justify-items: center;}
+    .boton{margin-top: 8px;text-align: center}
+    .boton2{margin-top: 10px;}
+    main{align-content: center!important;}
+
 }
