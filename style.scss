@@ -1,6 +1,7 @@
 $bgcolor: #2d2c49;
 $color:  #b7464e;
 $btncolor: #eb9972;
+$borderad: 8px;
 body{background-color: $bgcolor}
 .h1{color:$btncolor}
 .logo{ border-radius: 30%;}
@@ -9,14 +10,15 @@ text-decoration: none;
 color:$bgcolor;
 width: 200px;
 height: 40px;
-border-radius: 10px;}
+border-radius:$borderad;
+border:none;}
 #boton{background-color: $btncolor;
 text-decoration: none;
 margin-right:1em;
 margin-left: 1em;
 justify-self: space-between;
 color:$bgcolor;
-border-radius: 10px;
+border-radius: $borderad;
 margin-bottom: 4px;
 border-color:$btncolor;}
 #boton:hover{background-color: $bgcolor;}
@@ -25,13 +27,18 @@ color:$bgcolor;
 text-decoration:none;
 text-align: center;
 width: 200px;
-border-radius: 10px;}
-.registro{width: 60%;}
+height: 40px;
+border-radius:$borderad;
+border:none;}
+.registro{width: 60%;
+height: 40px;
+text-align: center;
+border-radius: $borderad;}
 main{position: relative;
 text-align: center;
 height: 700px;}
 .boton:hover{background-color: $color; color: $bgcolor;text-decoration: none;}
-.escuchamos{width: 60%; text-align: center;}
+.escuchamos{width: 60%; text-align: center;height: 40px;border-radius: $borderad;}
 .boton2:hover{ color: $bgcolor}
 .navbar-collapse {flex-grow: 0;
 }
@@ -75,7 +82,8 @@ justify-content: space-between;
 }
 h5{font-size :1vw;font-weight: 700;}
 h7{text-align: left; font-size :1vw; font-style: oblique;}
-
+@media (max-width:480px){.boton{margin-top: 8px;text-align: center}
+.boton2{margin-top: 10px;}}
 @media (max-width:380px){.logo{height: auto;width: auto;justify-items: center;}
     .boton{margin-top: 8px;text-align: center}
     .boton2{margin-top: 10px;}
